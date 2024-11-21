@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Dice
-//
-// Created by Solygambas on 26/05/2022
-// Copyright © 2022 Solygambas. All rights reserved.
-//
 
 import SwiftUI
 
@@ -25,7 +18,6 @@ struct ContentView: View {
     let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedResults")
     
     var body: some View {
-        // settings
         Form {
             Section {
                 Picker("Number of Dice", selection: $diceNumber) {
@@ -112,7 +104,6 @@ struct ContentView: View {
         isTimerRunning = false
         let result = Result(value: total)
         results.insert(result, at: 0)
-        // haptic feedback
         let generator = UINotificationFeedbackGenerator()
         generator.notificationOccurred(.success)
         drawCount = 8
