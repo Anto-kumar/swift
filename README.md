@@ -1,4 +1,5 @@
 # Dice
+I am Anto kumar Paul. My student id is 2007066.
 
 A dice app.
 
@@ -13,7 +14,3 @@ A dice app.
 - storing the results using JSON.
 - adding haptic feedback when dice are rolled.
 - making the results flick through various values.
-- adding support for VoiceOver.
-
-Based on [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) by Paul Hudson - Hacking with Swift (2022).
-"# swift" 
